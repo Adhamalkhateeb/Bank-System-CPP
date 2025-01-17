@@ -14,6 +14,10 @@ A console-based banking system built using C++ with file handling. This project 
 
 ✅ Search Clients: Find clients using their account number.
 
+✅ Make Transactuions: Deposit / Withdaw Money from Acc To other  
+
+
+
 ## 📁 Project Structure
 
 BankingSystemCPP
@@ -49,6 +53,8 @@ Update Client Information
 
 Find Client
 
+Transactions
+
 Exit Program
 
 ### 📁 Data Handling:
@@ -67,9 +73,10 @@ Each record is stored in the format:AccountNumber#//#PinCode#//#Name#//#Phone#//
 * [3] Delete Client
 * [4] Update Client Info
 * [5] Find Client
-* [6] Exit
+* [6] Transations
+* [7] Exit
 ## ===========================================
-### Choose what do you want to do? [1 to 6]?
+### Choose what do you want to do? [1 to 7]?
 
 ## 🤝 Contributing
 
