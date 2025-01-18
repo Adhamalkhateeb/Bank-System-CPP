@@ -1,0 +1,16 @@
+# Ignore build directories
+x64/
+Debug/
+Release/
+
+# Ignore Visual Studio user-specific files
+*.user
+
+
+# Ignore other unnecessary files
+*.log
+*.suo
+*.sdf
+*.opensdf
+*.pdb
+*.ilk
