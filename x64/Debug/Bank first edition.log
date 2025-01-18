@@ -1,5 +1,0 @@
-﻿  Bank first edition.cpp
-C:\adham\courses 1 to 13\course 7\Level 3 bank project\Bank first edition\Bank first edition\Bank first edition.cpp(28,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-C:\adham\courses 1 to 13\course 7\Level 3 bank project\Bank first edition\Bank first edition\Bank first edition.cpp(307,1): warning C4715: 'DeleteClientByAccountNumber': not all control paths return a value
-C:\adham\courses 1 to 13\course 7\Level 3 bank project\Bank first edition\Bank first edition\Bank first edition.cpp(341,1): warning C4715: 'UpdateClientByAccountNumber': not all control paths return a value
-  Bank first edition.vcxproj -> C:\adham\courses 1 to 13\course 7\Level 3 bank project\Bank first edition\x64\Debug\Bank first edition.exe
