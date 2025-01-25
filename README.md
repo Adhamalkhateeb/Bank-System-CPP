@@ -55,12 +55,12 @@ A console-based banking system built using C++ with file handling. This project 
 ### Steps
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/BankingSystemCPP.git
+   git clone https://https://github.com/Adhamalkhateeb/Bank-System-CPP.git
    cd BankingSystemCPP
    ```
 2. **Compile the Code:**
    ```bash
-    g++ main.cpp -o BankingSystem
+    g++ Bank Last Edition.cpp -o BankingSystem
    ```
 3.  **Run the Program:**
    ```bash
