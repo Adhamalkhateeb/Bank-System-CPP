@@ -32,13 +32,15 @@ A console-based banking system built using C++ with file handling. This project 
 
 ## 📁 Project Structure
 
-* ├── 📄 Bank Last edition.cpp # Main source code file
-* ├── 📄 Clients.txt # Data file storing client information
-* ├── 📄 Users.txt # Data file storing user information (New!)
-* ├── 📄 README.md # Project documentation
-* ├── 📄 CHANGELOG.md # Track changes to the project (New!)
-* └── 📄 .gitignore # Specifies files to ignore in Git (New!)
-
+Banking-System-CPP/
+* ├── src/ 
+* │ ├── BankSystem.cpp # Main source code for the banking system
+* │ ├── ATMSystem.cpp # ATM system source code
+* │ ├── Clients.txt # Data file for client information
+* │ ├── Users.txt # Data file for user information
+* ├── README.md # Project documentation
+* ├── CHANGELOG.md # Track changes to the project
+* └── .gitignore # Specifies files to ignore in Git
 ## 🛠️ Technologies Used
 
 - **Programming Language:** C++
@@ -52,21 +54,8 @@ A console-based banking system built using C++ with file handling. This project 
 - A C++ compiler (e.g., g++).
 - Git (optional, for cloning the repository).
 
-### Steps
-1. **Clone the Repository:**
-   ```bash
-   git clone https://https://github.com/Adhamalkhateeb/Bank-System-CPP.git
-   cd BankingSystemCPP
-   ```
-2. **Compile the Code:**
-   ```bash
-    g++ Bank Last Edition.cpp -o BankingSystem
-   ```
-3.  **Run the Program:**
-   ```bash
-   ./BankingSystem
-   ```
-4.  **Log in:**
+
+.  **Log in:**
    ```bash   
     Username: Admin
     Password: 1234
@@ -97,7 +86,7 @@ A console-based banking system built using C++ with file handling. This project 
 
 3. Show Total Balances: Display the total balance of all clients.
 
-### User Management Menu (New!):
+### User Management Menu :
 1. List Users: Display all users.
 
 2. Add New User: Create a new user.
@@ -107,6 +96,15 @@ A console-based banking system built using C++ with file handling. This project 
 4. Update User: Modify user details and permissions.
 
 5. Find User: Search for a user by username.
+
+### ATM System Menu
+1. Quick Withdraw: Withdraw predefined amounts.
+
+2. Normal Withdraw: Withdraw custom amounts.
+
+3. Deposit: Add funds to the account.
+
+4. Check Balance: View the current account balance.
 
    
 ## 📁 Data Handling:
@@ -158,3 +156,14 @@ Contributions are welcome!Feel free to fork the repository and submit a pull req
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## ⭐️ If you like this project, consider giving it a star on GitHub! ⭐️
+
+---
+
+### **Changes**
+1. **Integrated ATM System**: Added the ATM system as a new feature in the project.
+2. **Updated Project Structure**: Added `ATMSystem.cpp` to the `src` folder.
+3. **Data Handling**: Explained how client and user data are stored.
+
+---
+
+
